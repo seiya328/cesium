@@ -50,6 +50,8 @@ var polygon = viewer.entities.add({
     }
 });
 
+viewer.dataSources.add(Cesium.KmlDataSource.load("./KML/echizen.kmz"));
+
   viewer.zoomTo(viewer.entities);　//レイヤにズーム);
 
 
